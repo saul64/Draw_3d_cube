@@ -4,12 +4,11 @@
 from turtle import *
 import time
 
-speed(2)
-color('black')
+speed(3)
 
 # Función para dibujar líneas con puntos entre dos coordenadas
 def draw_3d_cube_with_points(x1, y1, x2, y2, step=5):
-    penup()
+    pu()
     goto(x1, y1)
     dx = x2 - x1
     dy = y2 - y1

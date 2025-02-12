@@ -13,7 +13,7 @@ def draw_square(size):
         forward(size)
         left(90)
 
-#Dibujar cada frontal
+#Dibujar cara frontal
 draw_square(200)
 
 
